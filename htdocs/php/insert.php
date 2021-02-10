@@ -2,8 +2,7 @@
   $user = 'root';
   $password = getenv('MYSQL_ROOT_PASSWORD');
   $dbName = 'chapter6_db';
-  $dbServer = getenv('DB_SERVER');
-  $host = "{$dbServer}:8889";
+  $host = 'mysql:8889';
   $dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
 ?>
 
